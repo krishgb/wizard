@@ -1,0 +1,72 @@
+const states = [
+    'Andaman and Nicobar Islands',
+    'Andhra Pradesh',
+    'Arunachal Pradesh',
+    'Assam',
+    'Bihar',
+    'Chandigarh',
+    'Chhattisgarh',
+    'Dadra and Nagar Haveli',
+    'Daman and Diu',
+    'Delhi',
+    'Goa',
+    'Gujarat',
+    'Haryana',
+    'Himachal Pradesh',
+    'Jammu and Kashmir',
+    'Jharkhand',
+    'Karnataka',
+    'Kerala',
+    'Ladakh',
+    'Lakshadweep',
+    'Madhya Pradesh',
+    'Maharashtra',
+    'Manipur',
+    'Meghalaya',
+    'Mizoram',
+    'Nagaland',
+    'Odisha',
+    'Puducherry',
+    'Punjab',
+    'Rajasthan',
+    'Sikkim',
+    'Tamil Nadu',
+    'Telangana',
+    'Tripura',
+    'Uttar Pradesh',
+    'Uttarakhand',
+    'West Bengal'
+]
+
+const majors = [
+    'Aerospace/aeronautical engineering',
+    'Chemical engineering',
+    'Civil engineering',
+    'Computer engineering',
+    'Electrical/electronic engineering',
+    'Mechanical engineering',
+    'Engineering management'
+]
+
+const details = {
+    NAME: 's_name',
+    EMAIL: 'email',
+    PHONE: 'phone',
+    AGE: 'age',
+    FATHER: 'fatherName',
+    MOTHER: 'motherName',
+    F_OCCUPATION: 'foccupation',
+    M_OCCUPATION: 'moccupation',
+    SSLC: 'sslc',
+    S_SCHOOL: 'sslcSchool',
+    HSC: 'hsc',
+    H_SCHOOL: 'hscSchool',
+    SPORTS: 'sports',
+    ADDRESS: 'address',
+    CITY: 'city',
+    STATE: 'state',
+    COUNTRY: 'country',
+    DEGREE: 'degree'
+}
+
+export { states, majors, details }

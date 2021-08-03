@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# A Simple React Wizard App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+[Demo here](https://wizardcollege.web.app/)
 
 ## Available Scripts
 

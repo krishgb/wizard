@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+.details {
+  display: grid;
+  place-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  border-collapse: collapse;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+table tr td {
+  padding: 0.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+table tr {
+  background: #ddd;
+  font-size: 1.2rem;
+}
+
+table tr td:nth-of-type(odd) {
+  font-weight: bold;
+}
+
+table h2 {
+  color: red;
+}
+
+form {
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: bold;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+label {
+  width: 30%;
+  display: grid;
+  place-items: left;
+  gap: 0.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+input {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: 1px solid blue;
+  border-radius: 2px;
+  overflow-x: hidden;
+}
+
+.formButtons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.formButtons button,
+.details button {
+  cursor: pointer;
+  font-size: 1.2rem;
+  border: none;
+  background: rgb(40, 206, 178);
+  padding: 0.9rem 1.5rem;
+  border-radius: 2px;
+}
+
+.details button {
+  margin: 1rem;
+}
+
+footer {
+  width: 100%;
+  margin-top: 1rem;
+  text-align: center;
+  padding: 1rem;
+  background: #ccc;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 799px) {
+  label {
+    width: 80%;
   }
 }
